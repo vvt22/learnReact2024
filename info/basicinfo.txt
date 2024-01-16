@@ -1,0 +1,33 @@
+Q: Difference between a Library and Framework?
+A: A library is a collection of packages that perform specific operations 
+whereas a framework contains the basic flow and architecture of an application. 
+The major difference between them is the complexity. Libraries contain a number of methods 
+that a developer can just call whenever they write code. 
+React js is library and Angular is Framework. 
+The framework provides the flow of a software application and tells the developer 
+what it needs and calls the code provided by the developer as required. 
+If a library is used, the application calls the code from the library.
+
+
+Q: What is crossorigin in script tag?
+A: The crossorigin attribute sets the mode of the request to an HTTP CORS Request. 
+The purpose of crossorigin attribute is used to share the resources from one domain to another domain. 
+Basically, it is used to handle the CORS request. 
+It is used to handle the CORS request that checks whether it is safe to allow for 
+sharing the resources from other domains.
+
+
+Q: What is async and defer?
+A: Async - The async attribute is a boolean attribute. 
+The script is downloaded in parallel(in the background) to parsing the page, 
+and executed as soon as it is available (do not block HTML DOM construction during downloading process)
+ and don’t wait for anything.
+Syntax: <script src="demo_async.js" async></script>
+
+Defer - The defer attribute is a boolean attribute. 
+The script is downloaded in parallel(in the background) to parsing the page, 
+and executed after the page has finished parsing(when browser finished DOM construction). 
+The defer attribute tells the browser not to wait for the script. 
+Instead, the browser will continue to process the HTML, build DOM.
+Syntax
+<script src="demo_defer.js" defer></script>
