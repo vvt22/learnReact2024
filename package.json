@@ -1,0 +1,27 @@
+{
+  "name": "learnreact2024",
+  "version": "1.0.0",
+  "description": "\"# learnReact2024\"",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vvt22/learnReact2024.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vvt22/learnReact2024/issues"
+  },
+  "homepage": "https://github.com/vvt22/learnReact2024#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
