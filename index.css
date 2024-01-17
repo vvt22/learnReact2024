@@ -1,4 +1,6 @@
-.header {
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +11,11 @@
 .logo {
     width: 180px;
 }
+
+.filter-btn {
+    margin: 10px;
+    cursor: pointer;
+   }
 
 .nav-items {
     padding:  0px 30px;
@@ -36,11 +43,14 @@
     margin: 5px;
     padding: 5px;
     width: 200px;
+    transition: 0ms;
+    
 }
 
 .res-card:hover {
     cursor: pointer;
-    border: 1px solid black;
+    width:210px;
+    transition-delay: 0.8ms;
 }
 
 .search {
@@ -49,4 +59,5 @@
 
 .res-logo {
     width: 100%;
+    border-radius: 5px;
 }
