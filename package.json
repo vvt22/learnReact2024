@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"parcel index.html"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "process": "^0.11.10"
   },
   "dependencies": {
+    "json-server": "^1.0.0-alpha.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
