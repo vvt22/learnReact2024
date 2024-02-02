@@ -89,11 +89,10 @@ const Body = () => {
           key={restaurant.info.id}
             to={"/restaurants/" + restaurant.info.id}
           >
-          {/* adding condition */}
-            {restaurant.info.promoted?<RestaurantCardPromoted resData={restaurant}/>:
-            <RestaurantCard resData={restaurant} />}
-            
-          </Link>
+          {/* adding condition
+            {restaurant.info.promoted?<RestaurantCardPromoted resData={restaurant}/>: */}
+            <RestaurantCard resData={restaurant} />  
+            </Link>
         ))}
       </div>
     </div>
