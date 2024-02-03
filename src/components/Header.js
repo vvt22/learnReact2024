@@ -1,11 +1,13 @@
 import FoodFireLogo from "../../images/FoodFireLogo.png";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import UserContext from "../../utils/UserContext";
 
 
 const Header = () => {
   const [btnNameReact, setBtnNameReact] = useState("Login");
-    return (
+  const { loggedInUser } = useContext(UserContext);
+      return (
       <div className="flex justify-between bg-orange-100 shadow-md m-2">
         <div className="logo-container">
           <img className="w-28 m-3 p-4" src={FoodFireLogo} />
@@ -35,6 +37,7 @@ const Header = () => {
           >
             {btnNameReact}
           </button>
+          <li className="px-4 font-bold">{loggedInUser}</li>
           </ul>
         </div>
       </div>
